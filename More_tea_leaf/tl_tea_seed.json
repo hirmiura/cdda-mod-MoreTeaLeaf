@@ -1,28 +1,26 @@
-[
-  {
-        "type" : "COMESTIBLE",
-        "id" : "tl_seed_tea_leaf",
-        "name"            : "種(茶葉)",
-        "description"     : "茶葉の種です。",
-        "comestible_type" : "FOOD",
-        "category"   : "other",
-        "material"   : "veggy",
-        "color"      : "green",
-        "symbol"     : ".",
-        "use_action" : "SEED",
-        "quench"     : 0,
-        "nutrition"  : 2,
-        "weight"     : 1,
-        "volume"     : 1,
-        "stack_size" : 100,
-        "charges"    : 2,
-        "fun"        : 0,
-        "price"      : 100,
-        "seed_data": {
-            "plant_name": "茶葉",
-            "fruit": "tl_tea_raw",
-            "byproducts": [ "withered" ],
-            "grow" : 65
-        }
+[{
+  "type": "COMESTIBLE",
+  "id": "tl_seed_tea_leaf",
+  "name": "種(茶葉)",
+  "description": "茶葉の種です。",
+  "comestible_type": "FOOD",
+  "category": "other",
+  "material": "veggy",
+  "color": "green",
+  "symbol": ".",
+  "use_action": "SEED",
+  "quench": 0,
+  "nutrition": 2,
+  "weight": 1,
+  "volume": 1,
+  "stack_size": 100,
+  "charges": 2,
+  "fun": 0,
+  "price": 100,
+  "seed_data": {
+    "plant_name": "茶葉",
+    "fruit": "tl_tea_raw",
+    "byproducts": ["withered"],
+    "grow": 65
   }
-]
+}]

@@ -1,10 +1,10 @@
  {
-       "type": "MOD_INFO",
-       "mod_type"    : "SUPPLEMENTAL",
-       "category"    : "items",
-       "ident"       : "mtl for Uekibati",
-       "name"        : "追加 - 茶葉を育てるMOD(植木鉢対応パッチ)",
-       "description" : "茶葉を育てるMODを植木鉢MODに対応させるパッチです。",
-	   "dependencies": ["Uekibati_mod","More tea leaf"],
-       "path"        : ""
-   }
+   "type": "MOD_INFO",
+   "mod_type": "SUPPLEMENTAL",
+   "category": "items",
+   "ident": "mtl for Uekibati",
+   "name": "追加 - 茶葉を育てるMOD(植木鉢対応パッチ)",
+   "description": "茶葉を育てるMODを植木鉢MODに対応させるパッチです。",
+   "dependencies": ["Uekibati_mod", "More tea leaf"],
+   "path": ""
+ }

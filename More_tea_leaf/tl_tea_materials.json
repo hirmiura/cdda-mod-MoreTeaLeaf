@@ -1,46 +1,44 @@
-[
-  {
-        "type" : "material",
-        "ident" : "tlgreentea",
-        "name"          : "緑茶",
-        "bash_resist"   : 1,
-        "cut_resist"    : 1,
-        "bash_dmg_verb" : "squished",
-        "cut_dmg_verb"  : "cut",
-        "dmg_adj"       : [
-                            "lightly damaged",
-                            "damaged",
-                            "very damaged",
-                            "thoroughly damaged"
-                          ],
-        "acid_resist"   : 2,
-        "elec_resist"   : 1,
-        "fire_resist"   : 1,
-        "chip_resist"   : 2,
-        "density"       : 4,
-        "edible"        : true,
-        "vitamins": [
-          [ "vitC", 0.4 ]
-        ]
-  },{
-        "type" : "material",
-        "ident" : "tloolongtea",
-        "name"          : "烏龍茶",
-        "bash_resist"   : 1,
-        "cut_resist"    : 1,
-        "bash_dmg_verb" : "squished",
-        "cut_dmg_verb"  : "cut",
-        "dmg_adj"       : [
-                            "lightly damaged",
-                            "damaged",
-                            "very damaged",
-                            "thoroughly damaged"
-                          ],
-        "acid_resist"   : 2,
-        "elec_resist"   : 1,
-        "fire_resist"   : 1,
-        "chip_resist"   : 2,
-        "density"       : 4,
-        "edible"        : true
-  }
-]
+[{
+  "type": "material",
+  "ident": "tlgreentea",
+  "name": "緑茶",
+  "bash_resist": 1,
+  "cut_resist": 1,
+  "bash_dmg_verb": "squished",
+  "cut_dmg_verb": "cut",
+  "dmg_adj": [
+    "lightly damaged",
+    "damaged",
+    "very damaged",
+    "thoroughly damaged"
+  ],
+  "acid_resist": 2,
+  "elec_resist": 1,
+  "fire_resist": 1,
+  "chip_resist": 2,
+  "density": 4,
+  "edible": true,
+  "vitamins": [
+    ["vitC", 0.4]
+  ]
+}, {
+  "type": "material",
+  "ident": "tloolongtea",
+  "name": "烏龍茶",
+  "bash_resist": 1,
+  "cut_resist": 1,
+  "bash_dmg_verb": "squished",
+  "cut_dmg_verb": "cut",
+  "dmg_adj": [
+    "lightly damaged",
+    "damaged",
+    "very damaged",
+    "thoroughly damaged"
+  ],
+  "acid_resist": 2,
+  "elec_resist": 1,
+  "fire_resist": 1,
+  "chip_resist": 2,
+  "density": 4,
+  "edible": true
+}]
