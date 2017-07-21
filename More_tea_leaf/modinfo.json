@@ -1,0 +1,10 @@
+ {
+       "type": "MOD_INFO",
+       "mod_type"    : "SUPPLEMENTAL",
+       "category"    : "items",
+       "ident"       : "More tea leaf",
+       "name"        : "追加 - 茶葉を育てるMOD",
+       "description" : "茶葉の種と生の茶葉、幾つかのお茶の葉とお茶を追加します。",
+       "dependencies": "",
+       "path"        : ""
+ }

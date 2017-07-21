@@ -1,0 +1,42 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "ueki_tea_leaf",
+    "name"             : "植木鉢(茶葉育成中)",
+    "name_plural"      : "植木鉢(茶葉育成中)",
+    "description"      : "茶葉を育てている植木鉢です。",
+    "weight"           :  480,
+    "symbol"           : ")",
+    "color"            : "brown",
+    "price"            :  5000,
+    "material"         : ["clay", "veggy"],
+    "volume"           :  10,
+    "bashing"          :  1,
+    "cutting"          :  0,
+    "to_hit"           :  0,
+    "category"         : "tools",
+    "use_action"       : {
+        "type"         : "delayed_transform",
+        "transform_age":  216000,
+        "not_ready_msg": "すくすくと育っています。",
+        "msg"          : "茶葉が実りました！",
+        "moves"        :  0,
+        "target"       : "fi_ueki_tea_leaf"
+  }},{
+    "type": "GENERIC",
+    "id": "fi_ueki_tea_leaf",
+    "name": "植木鉢(茶葉)",
+    "name_plural" : "植木鉢(茶葉)",
+    "description": "茶葉の育ちきった植木鉢です。",
+    "weight": 480,
+    "symbol": ")",
+    "color": "brown",
+    "price": 5000,
+    "material" : ["clay", "veggy"],
+    "volume": 10,
+    "bashing": 1,
+    "cutting": 0,
+    "to_hit": 0,
+    "category": "tools"
+  }
+]

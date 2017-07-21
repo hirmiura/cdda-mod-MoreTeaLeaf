@@ -1,0 +1,464 @@
+[
+  {
+     "type" : "recipe",
+     "result"             : "tea_raw",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_OTHER",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "fire", -1 ]
+                ]
+              ],
+     "components": [[[ "tl_tea_raw", 40 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_tea_green_leaf",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_OTHER",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "fire", -1 ]
+                ]
+              ],
+     "components": [[[ "tl_tea_raw", 40 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_green_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tl_tea_green_leaf", 1 ]],
+                [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_tea_oolong_leaf",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_OTHER",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "fire", -1 ]
+                ]
+              ],
+     "components": [[[ "tl_tea_raw", 40 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_oolong_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tl_tea_oolong_leaf", 1 ]],
+                [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+  "type" : "recipe",
+  "result": "tl_plum_Tea_boiled",
+  "category": "CC_FOOD",
+  "subcategory": "CSC_FOOD_VEGGI",
+  "skill_used": "cooking",
+  "difficulty": 2,
+  "result_mult": 12,
+  "time": 30000,
+  "reversible": false,
+  "autolearn": true,
+  "batch_time_factors":[80, 4],
+  "qualities":[{"id":"COOK","level":3,"amount":1}], 
+  "tools": [[
+             [ "hotplate", 2 ],
+             [ "char_smoker", 2 ],
+             [ "toolset", 2 ],
+             [ "fire", -1 ]
+           ]],
+  "components": [[["tea_raw", 10]],
+                 [["plums",4],["irradiated_plums",4]],
+                 [[ "sugar", 10 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_banana_chocolate_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 1,
+     "result_mult"        : 2,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "milk_tea", 1 ]],
+                 [[ "banana", 1 ],[ "irradiated_banana", 1 ]],
+                 [[ "choc_drink", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_apple_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "apple", 1 ],[ "irradiated_apple", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_pear_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "pear", 1 ],[ "irradiated_pear", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_cherry_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "cherries", 1 ],[ "irradiated_cherries", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_peach_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "peach", 1 ],[ "irradiated_peach", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_apricot_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "apricot", 1 ],[ "irradiated_apricot", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_lemon_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "lemon", 1 ],[ "irradiated_lemon", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_mango_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "mango", 1 ],[ "irradiated_mango", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_grape_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "grapes", 1 ],[ "irradiated_grapes", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_grapefruit_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "grapefruit", 1 ],[ "irradiated_grapefruit", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_papaya_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "papaya", 1 ],[ "irradiated_papaya", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_orange_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "orange", 1 ],[ "irradiated_orange", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  },{
+     "type" : "recipe",
+     "result"             : "tl_pomegranate_tea",
+     "category"           : "CC_FOOD",
+     "subcategory"        : "CSC_FOOD_DRINKS",
+     "skill_used"         : "cooking",
+     "difficulty"         : 0,
+     "time"               : 10000,
+     "reversible"         : false,
+     "autolearn"          : true,
+     "batch_time_factors" :[80, 4],
+     "qualities"          :[{"id":"BOIL","level":1,"amount":1}], 
+     "tools": [
+                [
+                 [ "hotplate", 2 ],
+                 [ "char_smoker", 2 ],
+                 [ "toolset", 2 ],
+                 [ "atomic_coffeepot", -1 ],
+                 [ "fire", -1 ],
+                 [ "coffeemaker", 2]
+                ]
+              ],
+  "components": [[[ "tea_raw", 1 ]],
+                 [[ "pomegranate", 1 ],[ "irradiated_pomegranate", 1 ]],
+                 [[ "water", 1 ],[ "water_clean", 1 ]]]
+  }
+]
+]
