@@ -5,6 +5,7 @@
    "ident": "mtl for Uekibati",
    "name": "追加 - 茶葉を育てるMOD(植木鉢対応パッチ)",
    "description": "茶葉を育てるMODを植木鉢MODに対応させるパッチです。",
-   "dependencies": ["Uekibati_mod", "More tea leaf"],
+   "maintainers": ["hirmiura"],
+   "dependencies": ["dda", "Uekibati_mod", "More tea leaf"],
    "path": ""
  }
