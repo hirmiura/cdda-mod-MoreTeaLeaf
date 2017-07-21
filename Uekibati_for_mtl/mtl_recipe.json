@@ -24,7 +24,10 @@
 }, {
   "type": "recipe",
   "result": "uekibati",
-  "byproducts": ["tl_seed_tea_leaf", "tl_tea_raw", "tl_tea_raw", "tl_tea_raw", "tl_tea_raw"],
+  "byproducts": [
+    ["tl_seed_tea_leaf", 1],
+    ["tl_tea_raw", 4]
+  ],
   "id_suffix": "for_tl_tea_raw",
   "category": "CC_FOOD",
   "subcategory": "CSC_FOOD_VEGGI",
